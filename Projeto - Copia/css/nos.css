@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    background: #fff url(./img/emergencia.png) no-repeat center;
+}
+
+.pagina-inicial {
+    background: #fff url(./img/header.png);
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 120px;
+}
+
+.menu ul li {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu {
+    width: 50%;
+    float: right;
+}
+
+.menu ul li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    position: relative;
+    font-size: 18px;
+}
+
+aside {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+ul li {
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background: #fff url(./img/header.png);
+    height: 90px;
+    width: 100%;
+}
+
+.a {
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 12px;
+    margin-left: 90px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes ul li {
+    margin-top: 12px;
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes {
+    width: 50%;
+    float: right;
+}

@@ -1,0 +1,158 @@
+body {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.pagina-inicial {
+    background: #fff url(./img/header.png);
+    height: 100px;
+    width: 100%;
+}
+
+.logo {
+    float: left;
+    padding: 5px;
+    width: 40%;
+    margin-top: 12px;
+    margin-left: 120px;
+}
+
+.menu ul li {
+    margin-top: 20px;
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.menu {
+    width: 50%;
+    float: right;
+}
+
+.menu ul li a {
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 1200px;
+    height: 250px;
+    border: 25px;
+    margin-top: 10px;
+}
+
+.app {
+    align-items: left;
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo-1 {
+    background: darkred;
+}
+
+.h1 {
+    margin-bottom: 70px;
+    margin-left: 10px;
+    margin-right: 100px;
+    color: azure;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.p-1 {
+    color: azure;
+    font-size: 25px;
+}
+
+.p-2 {
+    color: azure;
+    font-size: 20px;
+}
+
+.emergencia {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1200px;
+    height: 200px;
+    border: 25px;
+    background: #fff url(./img/emergencia.png) no-repeat center;
+}
+
+.p-4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.btn {
+    text-align: center;
+}
+
+.p-3 {
+    text-align: center;
+    color: darkblue;
+    font-size: 50px;
+}
+
+.fim {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1200px;
+    height: 200px;
+    border: 25px;
+}
+
+.noticia ul li {
+    margin-top: 15px;
+    margin-left: 88px;
+    display: inline-block;
+    list-style: none;
+}
+
+.noticia ul li a {
+    align-items: center;
+    color: darkblue;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.footer {
+    background: #fff url(./img/header.png);
+    height: 90px;
+    width: 100%;
+    position: absolute;
+    bottom: -500;
+}
+
+.a {
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 12px;
+    margin-left: 90px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes ul li {
+    margin-top: 12px;
+    margin-left: 15px;
+    display: inline-block;
+    list-style: none;
+}
+
+.redes {
+    width: 50%;
+    float: right;
+}
