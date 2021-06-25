@@ -36,24 +36,40 @@
             <br>
             <br>
         </div>
-        <table>
-            <div class="form">
-                <form action="/cadastro" method="post">
-                    Digite o seu nome completo: <input type=text name=camponome><br>
-                    <br> Insira um email válido: <input type=text name=campoemail><br>
-                    <br> Endereço: <input type=text name=campoend><br>
-                    <br> Telefone: <input type=text name=campotel><br>
-                    <br> Forneça o seu RG: <input type=text name=camporg><br>
-                    <br> Forneça o seu CPF: <input type=text name=campocpf><br>
-                    <br>
-                    <br>
-                    <br>
-                    <input type=submit value="Cadastrar">
-                    <br>
-                    <br>
-        </table>
-        </form>
-        </div>
+
+	<div class="container">
+		<form class="form-group" action="/cadastro" method="post">
+			<div class="form-group">
+				    <label for="camponome">Digite o seu nome completo</label>
+				       <input  class="form-control" type=text id="camponome" name=camponome><br>
+				        </div>
+					 <div class="form-group">
+						     <label for="campoemail">Insira um email válido</label>
+								    <input  class="form-control" type=text id="campoemail" name=campoemail><br>
+								     </div>
+								      <div class="form-group">
+									          <label for="campoend">Endereço</label>
+										     <input  class="form-control" type=text id="campoend" name=campoend><br>
+										      </div>
+										        <div class="form-group">
+												    <label for="campotel">Telefone</label>
+												       <input  class="form-control" type=text id="campotel" name=campotel><br>
+												        </div>
+													   <div class="form-group">
+														       <label for="camporg">Forneça o seu RG:</label>
+														          <input  class="form-control" type=text id="camporg" name=camporg><br>
+															   </div>
+															      <div class="form-group">
+																          <label for="campocpf">Forneça o seu CPF</label>
+																	     <input  class="form-control" type=text id="camporg" name=campocpf><br>
+																	      </div>
+																	       <input type=submit value="Cadastrar">
+																	        <br>
+																		 <br>
+																		  </form>
+																		   
+	</div>
+        
     </main>
     <footer class="footer">
         <a href="./nos.html" target="_blank" class="a">Conheça nosso projeto</a>

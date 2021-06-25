@@ -34,7 +34,7 @@ app.post('/cadastro', (req,res) => {
 			console.log(err);
 			res.status(500).end();
 		}
-		else res.json('ok');
+		else res.sendFile(path.join(__dirname, 'public', 'sucesso.html'));
 	})
 	//res.json(req.body);
 })
