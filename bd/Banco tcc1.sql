@@ -4,13 +4,13 @@
 
 
 CREATE TABLE Usuario (
-Cod_Usu Int PRIMARY KEY,
+Cod_Usu varchar(11) PRIMARY KEY,
 Senha varchar(30),
 Login varchar(30),
 Endereco varchar(80),
 Nome varchar(40),
 Email varchar(35),
-Telefone char(11),
+Telefone varchar(11),
 RG varchar(12)
 );
 
