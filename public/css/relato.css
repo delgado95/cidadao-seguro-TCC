@@ -36,11 +36,10 @@ body {
     font-size: 18px;
     text-transform: capitalize;
 }
-
-.p-2 {
+h1 {
     color: darkblue;
-    font-size: 30px;
     text-align: center;
+    font-size: 30px;
 }
 
 .form {
